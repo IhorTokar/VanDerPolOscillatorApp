@@ -1,0 +1,8 @@
+module com.example.vanderpoloscillatorapp {
+    requires javafx.controls;
+    requires javafx.fxml;
+
+
+    opens com.example.vanderpoloscillatorapp to javafx.fxml;
+    exports com.example.vanderpoloscillatorapp;
+}
